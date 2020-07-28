@@ -1,0 +1,249 @@
+
+body {
+    width: 100%;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.add-nav {
+    background-color: rgb(62, 63, 65);
+    width: 100%;
+    /* height: 50px; */
+    height: auto;
+}
+
+.add-headimg {
+    width: 17vw;
+    margin-left: 78vw;
+    margin-top: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+ul {
+    list-style: none;
+}
+
+.navigation-bar {
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+}
+
+.navigation-item1 {
+    padding: 16px 18px;
+    font-size: 13px;
+    color: white;
+}
+
+.navigation-item1:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+/* 左侧导航栏 */
+body {
+    font-family: "Lato", sans-serif;
+    transition: background-color .5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    /* padding-left: 3px; */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*------------------------------------------------*/
+
+
+
+
+
+/*-------------------------Sever-------------------*/
+/*serve*/
+#serve{
+    height: 100px;
+    /* background-color: #fff; */
+}
+#serve dl{
+    width: 200px;
+    height: 100px;
+    /*border: 1px solid #000;*/
+    position: relative;
+}
+
+#serve dt img{
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+#serve dl .dd1{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-weight: bold;
+}
+
+#serve li{
+    float: left;
+    /* margin: 0px 10px; */
+    transition: all .3s;
+}
+#serve li:hover{
+    transform: translateY(-10px);
+}
+#serve ul{
+    width: 1110px;
+    margin: 0px auto;
+    height: 98px;
+    border-bottom: 1px solid #333;
+}
+
+/*after_sale*/
+#after_sale{
+    height: 200px;
+    /* background-color: #fff; */
+}
+#after_sale ul{
+    width: 1110px;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+#after_sale ul li{
+    width: 140px;
+    float: left;
+    text-align: center;
+    margin: 0px 20px;
+}
+#after_sale ol>li{
+    line-height: 30px;
+}
+#after_sale ol>li:first-child a{
+    font-weight: bold;
+}
+#after_sale .xl{
+    width: 20px;
+    height: 17px;
+    background: url("../img/icons.png") no-repeat -47px -95px;
+    display: inline-block;
+    vertical-align: middle;
+}
+/*---------------------------------------------------*/
+
+
+/*-----------------------底部模板-----------------------*/
+
+#serve{
+    width: 100%;
+    height: 100px;
+    /* background-color: #fff; */
+}
+#serve dl .dd1{
+    position: absolute;
+    top: 40px;
+    left: 110px;
+    font-weight: bold;
+}
+#after_sale{
+    width: 100%;
+    height: 200px;
+    /* background-color: #fff; */
+}
+
+#footer{
+    width: 100%;
+    height: 40px;
+    /* background-color: #2D2D2D; */
+}
+#footer p{
+    line-height: 40px;
+    margin: 0 auto;
+}
+#footer{
+    height: 40px;
+    background-color: #2D2D2D;
+}
+#footer img{
+    margin: 10px 20px;
+    height: 20px;
+    width: 25px;
+}
+#footer p span{
+    color: #828282;
+    margin: 0px 500px 0px 20px;
+}
+#footer p a{
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    margin: 0px 10px;
+}
+#footer p a:hover{
+    color: #00925F;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+} */
+ol,ul{
+    list-style-type: none;
+}
+dd{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+/*-----------------------底部模板-----------------------*/
