@@ -218,36 +218,39 @@ body {
 
 /*star*/
 #star{
+	background-color: #e1e1e2;
 	height: 500px;
-	background-color: #fff;
+	/* background-color: #fff; */
 }
 #star .main_left{
-	background-color: #fff;
+	background-color: #e1e1e2;
 	height: 500px;
 	width: 550px;
 	margin: 0px 30px;
 	/*border:1px solid #000000;*/
 }
+#star .main_left_title{
+	margin-top: 30px;
+}
+
 
 #star .main_left_title{
-	target: "_blank";
+	height: 7%;
+	width: 90%;
 	float: left;
 	margin: 30px 5px;
 	padding:4px 16px;
-	background: #3ec3ff;
-	color: #fff;
-	border-radius: 6px;
-	border: 3px solid #EEEEEE;
+	/* background-image: url(../img/底板.jpg); */
+	/* border-radius: 6px; */
 }
+
 #star .main_left_title a{
+	color: rgb(186, 197, 197);
 	font-size: 20px;
 	font-weight: bold;
 }
-#star .main_left_title a:hover{
-	color: #fff;
-}
-#star .main_left_content ul{
 
+#star .main_left_content ul{
 	margin: 20px 5px;
 }
 #star .main_left_content li{
@@ -271,11 +274,11 @@ body {
 	font-family: "Microsoft YaHei UI";
 	cursor: pointer;
 	text-indent: 17px;
-	target: "_blank";
+	/* target: "_blank"; */
 	float: left;
 }
 #star .main_left_content li a:hover{
-	color: orange;
+	color: rgb(135, 135, 141);
 }
 #star .main_left_content li span{
 	float: right;
@@ -286,17 +289,43 @@ body {
 	padding-left: 5px;
 	font-size: 14px;
 }
-#star .more{
-	/* target: "_blank"; */
-	font-size: 14px;
-	float: left;
-	margin-top: 10px;
-	padding:4px 16px;
-	background: #3ec3ff;
-	color: #fff;
-	text-decoration: none;
-	border-radius: 6px;
+#star .span{
+	margin-top: 60px;
 }
+#star .more{
+	margin-left: 60px;
+	transition-property: color;
+    transition-duration: 0.5s;
+    /* margin-top: 40px;  */
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 2% 12% 2% 12%;
+}
+#star span a:hover{
+	background-color:black;
+    color: white;
+}
+
+/*
+.getmore2{
+    transition-property: color;
+    transition-duration: 0.5s;
+    //margin-top: 300px; 
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 2% 12% 2% 12%;
+    
+}
+a.getmore2:hover{
+    background-color:black;
+    color: white;
+}
+*/
+
 
 
 /*设置精选配件部分样式*/
